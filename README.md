@@ -1,5 +1,5 @@
 # Project Title 
-This is a basic project have HTML CSS and java script code.
+This is a basic project for search and rent out the properties developed using HTML CSS and java script code.
 
 User can search for the property, can explore for the details of the project.
 User can select the desired propery and can avail it for rent by paying from the application.
