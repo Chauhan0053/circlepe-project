@@ -34,7 +34,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .back-button:focus, .filter-button:focus {
@@ -154,7 +154,7 @@ body {
     border-radius: 20px;
     overflow: hidden;
     position: relative;
-    padding: 20px;
+    padding: 20px 40px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
