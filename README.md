@@ -18,6 +18,6 @@ I am still working on this project after submission to make it more responsive a
 
 ![alt text](transaction-review.PNG)
 
-![alt text](image-2.png)
+![alt text](review2.PNG)
 
 ![alt text](image-3.png)
