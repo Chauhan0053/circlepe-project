@@ -1,4 +1,3 @@
-
 const properties = [
     {
         name: "Sky Dandelions Apartment",
@@ -78,3 +77,19 @@ function showPropertyDetails(property) {
     url.searchParams.set('totalAmount', property.totalAmount);
     window.location.href = url;
 }
+document.addEventListener('DOMContentLoaded', function() {
+    const periodButtons = document.querySelectorAll('.period-button');
+    
+    periodButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            // Remove 'active' class from all buttons
+            periodButtons.forEach(btn => btn.classList.remove('active'));
+            
+            // Add 'active' class to the clicked button
+            this.classList.add('active');
+            
+            // You can add more functionality here, such as updating the price or other details
+            console.log(Selected period: ${this.textContent});
+        });
+    });
+});
