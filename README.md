@@ -16,7 +16,7 @@ I am still working on this project after submission to make it more responsive a
 
 ![alt text](search.png)
 
-![alt text](image-1.png)
+![alt text](transaction-review.png)
 
 ![alt text](image-2.png)
 
