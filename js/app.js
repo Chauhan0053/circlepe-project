@@ -68,7 +68,7 @@ properties.forEach(property => {
 
 // Function to handle card click and show new screen
 function showPropertyDetails(property) {
-    const url = new URL('property-details.html', window.location.href); // Change 'property-details.html' to your new HTML file
+    const url = new URL('pages/property-details.html', window.location.href); // Change 'property-details.html' to your new HTML file
     url.searchParams.set('name', property.name);
     url.searchParams.set('rating', property.rating);
     url.searchParams.set('location', property.location);
